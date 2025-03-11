@@ -1,6 +1,6 @@
 ﻿@import url("src/bootstrap/bootstrap.min.css");
 @import url("src/splide/splide.min.css");
-@import url("../../../../unpkg.com/ionicons%404.5.10-0/dist/css/ionicons.min.css");
+@import url("ionicons.min.css");
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600&amp;display=swap");
 body {
     font-family: "Poppins", sans-serif;
