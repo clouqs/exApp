@@ -20,6 +20,13 @@
     };
     return _0x4963();
   }
+  document.addEventListener('DOMContentLoaded', function () {
+    new Splide('.carousel-single', {
+        type: 'loop', // Enables infinite looping
+        perPage: 1,   // Number of slides to show at once
+        autoplay: true, // Enables autoplay
+    }).mount();
+});
   function _0x25bb(_0x1347a1, _0x448df9) {
     var _0x493f57 = _0x4963();
     _0x25bb = function (_0x296824, _0x4963a7) {

@@ -320,7 +320,7 @@ a:focus {
     display: none;
 }
 #appCapsule {
-    background-color: #6236ff;
+    /*background-color: #6236ff;*/
     padding: 56px 0;
     margin-bottom: env(safe-area-inset-bottom);
     margin-top: env(safe-area-inset-top);
