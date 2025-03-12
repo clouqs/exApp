@@ -488,7 +488,13 @@
     <!-- Splide -->
     <script src="assets/js/plugins/splide/splide.min.js"></script>
     <!-- Base Js File -->
-    <script src="assets/js/unobf.js"></script>
+    <script src="assets/js/unobf.js"></script> <!-- inutile credo??-->
+    <script>
+        setTimeout(function() {
+               document.getElementById("loader").style.display = "none";
+               document.getElementById("content").style.display = "block";
+           }, 1000); // 1000ms = 1.0 seconds
+   </script>
 
 
 </body>
