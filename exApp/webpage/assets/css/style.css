@@ -969,7 +969,7 @@ blockquote.blockquote .blockquote-footer {
 .imaged.square {
     border-radius: 0 !important;
 }
-/*
+
 #loader {
     position: fixed;
     left: 0;
@@ -981,8 +981,7 @@ blockquote.blockquote .blockquote-footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    user-select: none;
-}*/
+}
     
 #loader .loading-icon {
     width: 42px;

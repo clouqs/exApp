@@ -1187,6 +1187,12 @@
         // Add to Home with 2 seconds delay.
         AddtoHome("2000", "once");
     </script>
+    <script>
+     setTimeout(function() {
+            document.getElementById("loader").style.display = "none";
+            document.getElementById("content").style.display = "block";
+        }, 1500); // 1500ms = 1.5 seconds
+</script>
 
 </body>
 
