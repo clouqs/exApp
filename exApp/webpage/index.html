@@ -4,8 +4,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport"
         content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="theme-color" content="#000000">
     <title>exApp</title>
     <meta name="description" content="Finapp HTML Mobile Template">
@@ -15,6 +15,9 @@
     <link rel="apple-touch-icon" sizes="180x180" href="assets/img/icon/192x192.png">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/js/plugins/splide/splide.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/css/splide.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/5.5.2/css/ionicons.min.css">
+
 </head>
 
 <body>
@@ -428,7 +431,7 @@
             </div>
 
             <!-- carousel single -->
-            <div class="carousel-single splide">
+            <div id="cardCarousel" class="splide">
                 <div class="splide__track">
                     <ul class="splide__list">
 
@@ -663,196 +666,6 @@
             <!-- * carousel small -->
         </div>
         <!-- * Send Money -->
-
-        <!-- Monthly Bills -->
-        <div class="section full mt-4">
-            <div class="section-heading padding">
-                <h2 class="title">Monthly Bills</h2>
-                <a href="app-bills.html" class="link">View All</a>
-            </div>
-            <!-- carousel multiple -->
-            <div class="carousel-multiple splide">
-                <div class="splide__track">
-                    <ul class="splide__list">
-
-                        <li class="splide__slide">
-                            <div class="bill-box">
-                                <div class="img-wrapper">
-                                    <img src="assets/img/sample/brand/1.jpg" alt="img" class="image-block imaged w48">
-                                </div>
-                                <div class="price">$ 14</div>
-                                <p>Prime Monthly Subscription</p>
-                                <a href="#" class="btn btn-primary btn-block btn-sm">PAY NOW</a>
-                            </div>
-                        </li>
-
-                        <li class="splide__slide">
-                            <div class="bill-box">
-                                <div class="img-wrapper">
-                                    <img src="assets/img/sample/brand/2.jpg" alt="img" class="image-block imaged w48">
-                                </div>
-                                <div class="price">$ 9</div>
-                                <p>Music Monthly Subscription</p>
-                                <a href="#" class="btn btn-primary btn-block btn-sm">PAY NOW</a>
-                            </div>
-                        </li>
-
-                        <li class="splide__slide">
-                            <div class="bill-box">
-                                <div class="img-wrapper">
-                                    <div class="iconbox bg-danger">
-                                        <ion-icon name="medkit-outline"></ion-icon>
-                                    </div>
-                                </div>
-                                <div class="price">$ 299</div>
-                                <p>Monthly Health Insurance</p>
-                                <a href="#" class="btn btn-primary btn-block btn-sm">PAY NOW</a>
-                            </div>
-                        </li>
-
-                        <li class="splide__slide">
-                            <div class="bill-box">
-                                <div class="img-wrapper">
-                                    <div class="iconbox">
-                                        <ion-icon name="card-outline"></ion-icon>
-                                    </div>
-                                </div>
-                                <div class="price">$ 962</div>
-                                <p>Credit Card Statement
-                                </p>
-                                <a href="#" class="btn btn-primary btn-block btn-sm">PAY NOW</a>
-                            </div>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-            <!-- * carousel multiple -->
-        </div>
-        <!-- * Monthly Bills -->
-
-
-        <!-- Saving Goals -->
-        <div class="section mt-4">
-            <div class="section-heading">
-                <h2 class="title">Saving Goals</h2>
-                <a href="app-savings.html" class="link">View All</a>
-            </div>
-            <div class="goals">
-                <!-- item -->
-                <div class="item">
-                    <div class="in">
-                        <div>
-                            <h4>Gaming Console</h4>
-                            <p>Gaming</p>
-                        </div>
-                        <div class="price">$ 499</div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
-                            aria-valuemin="0" aria-valuemax="100">85%</div>
-                    </div>
-                </div>
-                <!-- * item -->
-                <!-- item -->
-                <div class="item">
-                    <div class="in">
-                        <div>
-                            <h4>New House</h4>
-                            <p>Living</p>
-                        </div>
-                        <div class="price">$ 100,000</div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55"
-                            aria-valuemin="0" aria-valuemax="100">55%</div>
-                    </div>
-                </div>
-                <!-- * item -->
-                <!-- item -->
-                <div class="item">
-                    <div class="in">
-                        <div>
-                            <h4>Sport Car</h4>
-                            <p>Lifestyle</p>
-                        </div>
-                        <div class="price">$ 42,500</div>
-                    </div>
-                    <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15"
-                            aria-valuemin="0" aria-valuemax="100">15%</div>
-                    </div>
-                </div>
-                <!-- * item -->
-            </div>
-        </div>
-        <!-- * Saving Goals -->
-
-
-        <!-- News -->
-        <div class="section full mt-4 mb-3">
-            <div class="section-heading padding">
-                <h2 class="title">Lastest News</h2>
-                <a href="app-blog.html" class="link">View All</a>
-            </div>
-
-            <!-- carousel multiple -->
-            <div class="carousel-multiple splide">
-                <div class="splide__track">
-                    <ul class="splide__list">
-
-                        <li class="splide__slide">
-                            <a href="app-blog-post.html">
-                                <div class="blog-card">
-                                    <img src="assets/img/sample/photo/1.jpg" alt="image" class="imaged w-100">
-                                    <div class="text">
-                                        <h4 class="title">What will be the value of bitcoin in the next...</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li class="splide__slide">
-                            <a href="app-blog-post.html">
-                                <div class="blog-card">
-                                    <img src="assets/img/sample/photo/2.jpg" alt="image" class="imaged w-100">
-                                    <div class="text">
-                                        <h4 class="title">Rules you need to know in business</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li class="splide__slide">
-                            <a href="app-blog-post.html">
-                                <div class="blog-card">
-                                    <img src="assets/img/sample/photo/3.jpg" alt="image" class="imaged w-100">
-                                    <div class="text">
-                                        <h4 class="title">10 easy ways to save your money</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                        <li class="splide__slide">
-                            <a href="app-blog-post.html">
-                                <div class="blog-card">
-                                    <img src="assets/img/sample/photo/4.jpg" alt="image" class="imaged w-100">
-                                    <div class="text">
-                                        <h4 class="title">Follow the financial agenda with...</h4>
-                                    </div>
-                                </div>
-                            </a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
-            <!-- * carousel multiple -->
-
-        </div>
-        <!-- * News -->
-
 
         <!-- app footer -->
         <div class="appFooter">
@@ -1181,22 +994,27 @@
     <!-- Splide -->
     <script src="assets/js/plugins/splide/splide.min.js"></script>
     <!-- Base Js File -->
-    <script src="assets/js/unobf.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide/dist/js/splide.min.js"></script>
 
     <script>
-        // Add to Home with 2 seconds delay.
-        AddtoHome("2000", "once");
-    </script>
+        document.addEventListener('DOMContentLoaded', function () {
+          new Splide('#cardCarousel', {
+            type: 'loop',  // Scorrimento infinito
+            perPage: 1,    // Una carta per volta
+            autoplay: true, // Scorrimento automatico
+            arrows: true,  // Mostra le frecce di navigazione
+            pagination: true, // Mostra i pallini di navigazione
+          }).mount();
+        });
+      </script>
     <script>
-     setTimeout(function() {
-            document.getElementById("loader").style.display = "none";
-            document.getElementById("content").style.display = "block";
-        }, 1500); // 1500ms = 1.5 seconds
-</script>
+        setTimeout(function() {
+               document.getElementById("loader").style.display = "none";
+               document.getElementById("content").style.display = "block";
+           }, 1000); // 1000ms = 1.0 seconds
+   </script>
+
 
 </body>
-
-
-<!-- Mirrored from finapp.bragherstudio.com/view22/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Mar 2025 21:02:13 GMT -->
 </html>
-
