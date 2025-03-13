@@ -5804,8 +5804,8 @@ body.rtl-mode .form-group.boxed .form-control.custom-select {
     background-position: left 12px center !important;
 }
 body.dark-mode {
-    background: #030108;
-    color: #8f82a5;
+    background: #030108 !important;
+    color: #8f82a5 !important;
 }
 body.dark-mode.bg-white {
     background: #161129 !important;
