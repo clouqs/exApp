@@ -63,7 +63,7 @@
                     <a href="app-pages.html" class="btn btn-lg btn-outline-secondary btn-block">Cancel</a>
                 </div>
                 <div class="col-6">
-                    <a href="app-pages.html" class="btn btn-lg btn-primary btn-block">Use Touch ID</a>
+                    <a href="index.html" class="btn btn-lg btn-primary btn-block">Use Touch ID</a>
                 </div>
             </div>
         </div>
@@ -83,8 +83,11 @@
     <script src="assets/js/unobf.js"></script>
 
 
+    <script>
+        setTimeout(function() {
+               document.getElementById("loader").style.display = "none";
+               document.getElementById("content").style.display = "block";
+           }, 1000); // 1000ms = 1.0 seconds
+   </script> <!--loader stopper-->
 </body>
-
-
-<!-- Mirrored from finapp.bragherstudio.com/view22/app-splash.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 11 Mar 2025 21:02:30 GMT -->
 </html>
